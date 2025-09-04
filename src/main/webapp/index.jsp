@@ -9,7 +9,8 @@
 <div class="home-container">
   <h1>Hello World!</h1>
   <p>Welcome to our JSP application.</p>
-  <a href="${pageContext.request.contextPath}/login" class="btn">Go to Login</a>
+  <a href="${pageContext.request.contextPath}/login" class="btn">Go to Login</a></br>
+  <a href="${pageContext.request.contextPath}/register">Register New Customer</a>
 </div>
 </body>
 </html>

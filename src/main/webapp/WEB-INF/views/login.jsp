@@ -25,10 +25,12 @@
       <input type="password" name="password" required>
     </div>
 
-    <button type="submit" class="btn">Login</button>
+    <div>
+      <button type="submit" class="btn">Login</button>
+    </div>
   </form>
-
   <p class="error">${error}</p>
+  <a href="${pageContext.request.contextPath}/register">Register</a>
 </div>
 </body>
 </html>

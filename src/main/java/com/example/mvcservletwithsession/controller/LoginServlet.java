@@ -14,7 +14,6 @@ import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpSession;
 
-
 import java.io.IOException;
 @WebServlet("/login")
 public class LoginServlet extends HttpServlet {
